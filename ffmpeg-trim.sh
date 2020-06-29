@@ -15,4 +15,4 @@ if test $# -lt 4; then
 fi
 
 #ffmpeg -ss 00:01:00 -i input.mp4 -to 00:02:00 -c copy output.mp4
-ffmpeg -i $1 -ss "$3" -t "$4" -avoid_negative_ts 1 $2
+ffmpeg -i $1 -ss "$3" -t "$4" -c copy -avoid_negative_ts 1 $2
