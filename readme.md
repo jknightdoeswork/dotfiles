@@ -8,3 +8,5 @@ in
 /usr/share/X11/xkb/symbols/pc
 
 
+put suspend_bluetooth in /lib/systemd/system-sleep/ and make executable
+
