@@ -1,4 +1,1 @@
-keycode 112 = Home
-keycode 117 = End
-keycode 110 = Prior
-keycode 115 = Next
+sudo cp override.xkb /usr/share/X11/xkb/symbols/pc
