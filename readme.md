@@ -1,4 +1,6 @@
 # Fix sleep issues
+https://askubuntu.com/questions/1029474/ubuntu-18-04-dell-xps13-9370-no-longer-suspends-on-lid-close
+
 /etc/default/grub
 
 GRUB_CMDLINE_LINUX_DEFAULT="mem_sleep_default=deep"
