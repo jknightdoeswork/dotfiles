@@ -1,3 +1,6 @@
 {
-	"editor.minimap.enabled": false
+	"editor.minimap.enabled": false,
+	"workbench.editor.enablePreview": false,
+	"terminal.integrated.enablePersistentSessions": false,
+	"terminal.integrated.scrollback": 10000
 }
