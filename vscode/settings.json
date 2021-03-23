@@ -2,5 +2,11 @@
 	"editor.minimap.enabled": false,
 	"workbench.editor.enablePreview": false,
 	"terminal.integrated.enablePersistentSessions": false,
-	"terminal.integrated.scrollback": 10000
+	"terminal.integrated.scrollback": 1000000,
+	"workbench.editorAssociations": [
+		{
+			"viewType": "jupyter.notebook.ipynb",
+			"filenamePattern": "*.ipynb"
+		}
+	]
 }
