@@ -8,5 +8,15 @@
 			"viewType": "jupyter.notebook.ipynb",
 			"filenamePattern": "*.ipynb"
 		}
-	]
+	],
+	"git.confirmSync": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"workbench.colorTheme": "GitHub Light",
+	"window.menuBarVisibility": "compact",
+	"editor.fontSize": 18,
+	"editor.fontFamily": "'JetBrains Mono'",
+	"extensions.autoCheckUpdates": false,
+	"extensions.autoUpdate": false,
+	"update.mode": "manual",
+	"workbench.startupEditor": "none"
 }
