@@ -18,5 +18,6 @@
 	"extensions.autoCheckUpdates": false,
 	"extensions.autoUpdate": false,
 	"update.mode": "manual",
-	"workbench.startupEditor": "none"
+	"workbench.startupEditor": "none",
+	"git.openRepositoryInParentFolders": "never"
 }
