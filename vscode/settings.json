@@ -19,5 +19,6 @@
 	"extensions.autoUpdate": false,
 	"update.mode": "manual",
 	"workbench.startupEditor": "none",
-	"git.openRepositoryInParentFolders": "never"
+	"git.openRepositoryInParentFolders": "never",
+	"go.toolsManagement.autoUpdate": true
 }

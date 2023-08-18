@@ -1,0 +1,1 @@
+sudo cp 90-disable-dpms.conf /etc/X11/xorg.conf.d/
