@@ -3,15 +3,14 @@
 	"workbench.editor.enablePreview": false,
 	"terminal.integrated.enablePersistentSessions": false,
 	"terminal.integrated.scrollback": 1000000,
-	"workbench.editorAssociations": [
-		{
+	"workbench.editorjsociations": {
+		"0": {
 			"viewType": "jupyter.notebook.ipynb",
 			"filenamePattern": "*.ipynb"
 		}
-	],
+	},
 	"git.confirmSync": false,
 	"diffEditor.ignoreTrimWhitespace": false,
-	"workbench.colorTheme": "GitHub Light",
 	"window.menuBarVisibility": "compact",
 	"editor.fontSize": 18,
 	"editor.fontFamily": "'JetBrains Mono'",
@@ -35,5 +34,34 @@
 	"gitlens.hovers.currentLine.details": false,
 	"gitlens.hovers.currentLine.enabled": false,
 	"gitlens.hovers.enabled": false,
-	"window.zoomLevel": 1
+	"debug.onTaskErrors": "abort",
+	"editor.lineNumbers": "relative",
+	
+	"vim.normalModeKeyBindings": [
+		{
+			"before": ["<C-j>"],
+			"after": ["j", "z", "z"]
+		},
+		{
+			"before": ["<S-j>"],
+			"after": ["<C-e>"]
+		},
+		{
+			"before": ["<C-k>"],
+			"after": ["k", "z", "z"]
+		},
+		{
+			"before": ["<S-k>"],
+			"after": ["<C-y>"]
+		},
+	],
+	
+	"vim.handleKeys": {
+		"<C-p>": false,
+		"<C-b>": false,
+		"<C-f>": false,
+		"<C-w>": false
+	},
+	"workbench.colorTheme": "Night Owl Black (No Italics)",
+	"explorer.confirmDragAndDrop": false
 }
