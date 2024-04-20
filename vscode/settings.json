@@ -59,7 +59,9 @@
 		"<C-p>": false,
 		"<C-b>": false,
 		"<C-f>": false,
-		"<C-w>": false
+		"<C-w>": false,
+		"<C-n>": false,
+		"<C-N>": false
 	},
 	"workbench.colorTheme": "Night Owl Black (No Italics)",
 	"explorer.confirmDragAndDrop": false,
