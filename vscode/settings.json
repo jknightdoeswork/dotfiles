@@ -15,7 +15,7 @@
 	"editor.fontSize": 18,
 	"editor.fontFamily": "'JetBrains Mono'",
 	"extensions.autoCheckUpdates": false,
-	"extensions.autoUpdate": "onlySelectedExtensions",
+	"extensions.autoUpdate": false,
 	"update.mode": "manual",
 	"git.openRepositoryInParentFolders": "never",
 	"go.toolsManagement.autoUpdate": true,
@@ -63,7 +63,9 @@
 		"<C-n>": false,
 		"<C-N>": false
 	},
-	"workbench.colorTheme": "Night Owl Black (No Italics)",
+	"workbench.colorTheme": "Catppuccin Mocha",
 	"explorer.confirmDragAndDrop": false,
-	"workbench.startupEditor": "none"
+	"workbench.startupEditor": "none",
+	"extensions.ignoreRecommendations": true,
+	"workbench.sideBar.location": "right"
 }
