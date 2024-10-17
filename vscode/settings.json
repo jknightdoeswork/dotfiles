@@ -35,26 +35,44 @@
 	"gitlens.hovers.enabled": false,
 	"debug.onTaskErrors": "abort",
 	"editor.lineNumbers": "relative",
-	
 	"vim.normalModeKeyBindings": [
 		{
-			"before": ["<C-j>"],
-			"after": ["j", "z", "z"]
+			"before": [
+				"<C-j>"
+			],
+			"after": [
+				"j",
+				"z",
+				"z"
+			]
 		},
 		{
-			"before": ["<S-j>"],
-			"after": ["<C-e>"]
+			"before": [
+				"<S-j>"
+			],
+			"after": [
+				"<C-e>"
+			]
 		},
 		{
-			"before": ["<C-k>"],
-			"after": ["k", "z", "z"]
+			"before": [
+				"<C-k>"
+			],
+			"after": [
+				"k",
+				"z",
+				"z"
+			]
 		},
 		{
-			"before": ["<S-k>"],
-			"after": ["<C-y>"]
+			"before": [
+				"<S-k>"
+			],
+			"after": [
+				"<C-y>"
+			]
 		},
 	],
-	
 	"vim.handleKeys": {
 		"<C-p>": false,
 		"<C-b>": false,
@@ -67,5 +85,20 @@
 	"explorer.confirmDragAndDrop": false,
 	"workbench.startupEditor": "none",
 	"extensions.ignoreRecommendations": true,
-	"workbench.sideBar.location": "right"
+	"workbench.sideBar.location": "right",
+	"[markdown]": {
+		"editor.suggest.showSnippets": false,
+		"editor.suggest.showWords": false,
+		"editor.acceptSuggestionOnCommitCharacter": false,
+		"editor.acceptSuggestionOnEnter": "off",
+		"editor.unicodeHighlight.ambiguousCharacters": false,
+		"editor.unicodeHighlight.invisibleCharacters": false,
+		"diffEditor.ignoreTrimWhitespace": false,
+		"editor.wordWrap": "on",
+		"editor.quickSuggestions": {
+			"comments": "off",
+			"strings": "off",
+			"other": "off"
+		}
+	}
 }
