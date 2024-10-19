@@ -12,6 +12,6 @@ export PATH=$PATH:/usr/local/go/bin:/home/jason/Android/Sdk/platform-tools
 #EMSDK_QUIET=1 source /home/jason/winterpixel/emsdk/emsdk_env.sh
 
 function gcmm() {
-	git add . && git commit -m $1 && git push
+	git add . && git commit -m "$1" && git push
 }
 
