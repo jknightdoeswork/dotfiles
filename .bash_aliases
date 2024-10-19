@@ -9,7 +9,7 @@ alias adbu="adb uninstall"
 export ANDROID_SDK_ROOT="/home/jason/Android/Sdk"
 
 export PATH=$PATH:/usr/local/go/bin:/home/jason/Android/Sdk/platform-tools
-EMSDK_QUIET=1 source /home/jason/winterpixel/emsdk/emsdk_env.sh
+#EMSDK_QUIET=1 source /home/jason/winterpixel/emsdk/emsdk_env.sh
 
 function gcmm() {
 	git add . && git commit -m $1 && git push
