@@ -100,5 +100,6 @@
 			"strings": "off",
 			"other": "off"
 		}
-	}
+	},
+	"security.workspace.trust.untrustedFiles": "open"
 }
