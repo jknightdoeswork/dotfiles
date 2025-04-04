@@ -11,7 +11,7 @@
 	},
 	"git.confirmSync": false,
 	"diffEditor.ignoreTrimWhitespace": false,
-	"window.menuBarVisibility": "compact",
+	"window.menuBarVisibility": "toggle",
 	"editor.fontSize": 18,
 	"editor.fontFamily": "'JetBrains Mono'",
 	"extensions.autoCheckUpdates": false,
@@ -79,7 +79,7 @@
 		"<C-f>": false,
 		"<C-w>": false,
 		"<C-n>": false,
-		"<C-N>": false
+		"<C-N>": false,
 	},
 	"workbench.colorTheme": "Catppuccin Mocha",
 	"explorer.confirmDragAndDrop": false,
@@ -101,5 +101,9 @@
 			"other": "off"
 		}
 	},
-	"security.workspace.trust.untrustedFiles": "open"
+	"security.workspace.trust.untrustedFiles": "open",
+	"workbench.activityBar.location": "hidden",
+	"workbench.editor.editorActionsLocation": "hidden",
+	"editor.stickyScroll.enabled": false,
+	"editor.guides.indentation": false
 }
