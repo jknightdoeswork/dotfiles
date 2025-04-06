@@ -102,8 +102,11 @@
 		}
 	},
 	"security.workspace.trust.untrustedFiles": "open",
+	"editor.stickyScroll.enabled": false,
+	"editor.guides.indentation": false,
+	"editor.stickyScroll.enabled": false,
 	"workbench.activityBar.location": "hidden",
 	"workbench.editor.editorActionsLocation": "hidden",
-	"editor.stickyScroll.enabled": false,
-	"editor.guides.indentation": false
+	"problems.showCurrentInStatus": true,
+	"workbench.panel.showLabels": false
 }
